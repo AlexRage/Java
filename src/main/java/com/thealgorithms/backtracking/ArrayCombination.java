@@ -25,6 +25,7 @@ public final class ArrayCombination {
         length = k;
         Integer[] arr = new Integer[n];
         for (int i = 1; i <= n; i++) {
+            System.out.println(int i)
             arr[i - 1] = i;
         }
         return Combination.combination(arr, length);
